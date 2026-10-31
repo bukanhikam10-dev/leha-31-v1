@@ -453,7 +453,7 @@ function renderSceneVisual(stage) {
   if (stage.playMode === "credits") {
     const credits = document.createElement("div"); credits.className = "ending-credits";
     const entries = stage.activity.credits.map((entry) => `<p class="${entry.final ? "credit-final" : ""}"><small>${entry.role}</small><strong>${entry.name}</strong></p>`).join("");
-    credits.innerHTML = `<div class="credits-roll"><div class="credits-content"><h2>UNTUK LEHA</h2><p class="credit-thanks">Sebuah cerita tentang perjalanan, mimpi, dan orang-orang yang berarti.</p>${entries}<p class="credit-end">TERIMA KASIH SUDAH BERMAIN</p></div></div>`; scene.append(credits);
+    credits.innerHTML = `<div class="credits-roll"><div class="credits-content"><h2>UNTUK LEHA</h2><p class="credit-thanks">Sebuah cerita tentang perjalanan, mimpi, dan orang-orang yang berarti.</p>${entries}<p class="credit-end">TERIMA KASIH SUDAH BERMAIN DAN SUDAH SURVIVE SAMPAI TITIK INI SAYANG</p></div></div>`; scene.append(credits);
     const roll = $(".credits-content", credits);
     const finishCredits = () => {
       const activity = currentActivity(stage); activity.done = true; saveState();
