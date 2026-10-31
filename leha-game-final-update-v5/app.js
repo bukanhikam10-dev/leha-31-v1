@@ -1,15 +1,15 @@
 const chapters = [
   { id: "prologue", number: "P", title: "Tutorial dulu Yuk", label: "PROLOG", summary: "Tutorial yang mengajak Leha memulai perjalanan dan menemukan petunjuk pertama.", playable: true },
-  { id: "bab-1", number: "01", title: "Sebelum Kita Saling Mengenal", label: "BAB 1", summary: "Masa SMP Leha dan awal kehidupannya di SMAN 94. bersama teman-temannya di IPS 3.", playable: true },
+  { id: "bab-1", number: "01", title: "Sebelum Saling Mengenal", label: "BAB 1", summary: "Masa SMP Leha dan awal kehidupannya di SMAN 94. bersama teman-temannya di IPS 3.", playable: true },
   { id: "bab-2", number: "02", title: "Pertemuan dengan Hikam", label: "BAB 2", summary: "modus nebengin pulang sekolah pake scoopy merah tercinta." , playable: true },
   { id: "bab-3", number: "03", title: "Taruhan Happy Days", label: "BAB 3", summary: "pura pura taruhan biar bisa nge date di Happy Days. ckckck", playable: true },
-  { id: "bab-4", number: "04", title: "Di Barisan Penonton", label: "BAB 4", summary: "kamu nontonin Hikam nge band di SMAN 2 Tangerang, disini ada kejadian kalo kam inget wkwkkw", playable: true },
-  { id: "bab-5", number: "05", title: "Ambisi Leha", label: "BAB 5", summary: "Cita cita kamu yang keren banget itu, masi kerekam ama Hikam sekarang.", playable: true },
-  { id: "bab-6", number: "06", title: "Bubaran, sedih banget ckck", label: "BAB 6", summary: "Setelah SMA, rutinitas berubah saat Kamu mengejar UI dan Hikam kuliah di UIN.", playable: true },
-  { id: "bab-7", number: "07", title: "Mbak Leha dari UI", label: "BAB 7", summary: "Kehidupan kampus Kamu bersama Mentari dan Nadia.", playable: true },
-  { id: "bab-8", number: "08", title: "Perempuan dengan Mimpi Besar", label: "BAB 8", summary: "Pengalaman profesional kamu dan Hikam bangga dari kejauhan asiikk.", playable: true },
-  { id: "bab-9", number: "09", title: "3 Oktober", label: "BAB 9", summary: "Pertemuan kembali di cafe noto.", playable: true },
-  { id: "finale", number: "✦", title: "Untuk Leha, Hari Ini", label: "FINALE", summary: "Surat terakhir dari Hikam dan ending credit komedi.", playable: true },
+  { id: "bab-4", number: "04", title: "Di Barisan Penonton", label: "BAB 4", summary: "Leha nontonin Hikam nge band di SMAN 2 Tangerang, disini ada kejadian kalo kam inget wkwkkw", playable: true },
+  { id: "bab-5", number: "05", title: "Ambisi Leha", label: "BAB 5", summary: "Cita cita Leha yang keren banget itu, masi kerekam ama Hikam sekarang.", playable: true },
+  { id: "bab-6", number: "06", title: "Bubaran, sedih banget ckck", label: "BAB 6", summary: "Setelah SMA, rutinitas berubah saat Leha mengejar UI dan Hikam kuliah di UIN.", playable: true },
+  { id: "bab-7", number: "07", title: "Leha dan Universitas Indonesia", label: "BAB 7", summary: "Kehidupan kampus Leha ditemani Mentari dan Nadia.", playable: true },
+  { id: "bab-8", number: "08", title: "Perempuan dengan Mimpi Besar", label: "BAB 8", summary: "Pengalaman profesional leha dan Hikam bangga dari kejauhan. asiikk.", playable: true },
+  { id: "bab-9", number: "09", title: "Kam, Ngopi Yuk", label: "BAB 9", summary: "Pertemuan kembali di cafe noto.", playable: true },
+  { id: "finale", number: "✦", title: "Untuk Sayangkuu, Hari Ini", label: "FINALE", summary: "Surat terakhir dari Hikam dan ending credit komedi.", playable: true },
 ];
 
 const characters = [
@@ -34,8 +34,8 @@ const games = {
     title: "Tutorial dulu Yuk",
     stages: [{
       id: "ruang-hadiah", eyebrow: "PROLOG · DRAFT ADEGAN", location: "RUANG HADIAH", mode: "prologue",
-      intro: "Halo, Leha! Aku Poniman, bintang kecil yang akan menemanimu. Game ini hadiah ulang tahun untukmu, dibuat Hikam.",
-      outro: "Semua benda di ruang hadiah sudah ditemukan. Perjalanan Leha akan dimulai dari masa sekolahnya.",
+      intro: "Halo, Leha! Aku Poniman yang akan menemanimu. Game ini hadiah ulang tahun untukmu, dibuat Hikam. yuk temuin beberapa barang dulu",
+      outro: "Semua benda di sudah ditemukan. selanjutnya Perjalanan Leha akan dimulai dari masa sekolahnya.",
       objects: [
         { id: "hadiah", name: "Kotak hadiah", icon: "▣", clue: "Ada pita merah di dekat tepi meja." },
         { id: "bintang", name: "Bintang kecil", icon: "✦", clue: "Cahaya kecil berkelip di dekat jendela." },
@@ -45,12 +45,12 @@ const games = {
     }],
   },
   "bab-1": {
-    title: "Sebelum Kita Saling Mengenal",
+    title: "Sebelum Saling Mengenal",
     stages: [
       {
         id: "smpn-205", eyebrow: "BAB 1 · MASA SMP", location: "KELAS SMPN 205", mode: "school-class", playMode: "explore",
-        introSpeaker: "Poniman", intro: "Pada masa SMP, Leha menjalani hari-harinya bersama teman-teman sekolah. Perjalanan ini dimulai dari masa sekolah Leha sendiri.",
-        outroSpeaker: "Poniman", outro: "Itulah masa SMP Leha. Berikutnya, perjalanan berlanjut ke SMAN 94, tempat Leha dan Hikam mulai berada di lingkungan yang sama.",
+        introSpeaker: "Poniman", intro: "Perjalanan ini dimulai dari masa sekolah Leha sendiri. Dia sekolah SMP di 205, disini aku belum tahu jalan kamu gimana aja",
+        outroSpeaker: "Poniman", outro: "Setekah masa SMP, perjalanan berlanjut ke SMAN 94. Tempat Leha dan Hikam mulai berada di lingkungan yang sama.",
         objects: [],
       },
       {
@@ -64,9 +64,9 @@ const games = {
         introSpeaker: "Poniman", intro: "Di kelas, Leha bertemu Aini, Ayu, dan Anita. Gerakkan Leha mendekati mereka untuk mulai mengobrol.",
         outroSpeaker: "Poniman", outro: "Obrolan di kelas selesai. Leha melanjutkan hari sekolahnya ke kantin.", objects: [],
         friends: [
-          { id: "aini", name: "Aini", left: 36, dialogue: [["Aini", "Leha, tugas yang tadi dicatat semua?"], ["Leha", "Hampir. Bagian terakhir boleh aku lihat catatanmu?"], ["Aini", "Boleh, nanti kita cocokkan bareng."]] },
-          { id: "ayu", name: "Ayu", left: 57, dialogue: [["Ayu", "Leha, kamu sudah paham jadwal pelajaran hari ini?"], ["Leha", "Sudah, Yu. Kalau ada yang kelewat, nanti kita cek bareng, ya."], ["Ayu", "Siap! Nanti duduk bareng lagi, ya."]] },
-          { id: "anita", name: "Anita", left: 79, dialogue: [["Anita", "Leha, nanti pas istirahat ikut ke kantin?"], ["Leha", "Ayo. Aku temani."], ["Anita", "Oke, ketemu di sana!"]] },
+          { id: "aini", name: "Aini", left: 36, dialogue: [["Aini", "Leh, tugas yang tadi dicatat semua?"], ["Leha", "Udah dong! Mau lihat? Traktir jajan es mister yak wkwk."], ["Aini", "Yee bisa aja, yaudah sini liat dulu."]] },
+          { id: "ayu", name: "Ayu", left: 57, dialogue: [["Ayu", "ehh, jadwal piket hari ini siapa aja ya?"], ["Leha", "gue Yu. ntar gue ingetin temen temen yang laen juga."], ["Ayu", "Oke! tengkyu lehh."]] },
+          { id: "anita", name: "Anita", left: 79, dialogue: [["Anita", "Leh, nanti pas istirahat ikut ke kantin yuk!"], ["Leha", "kuyyy. tapi abis itu ke aceng ya"], ["Anita", "mau liat kaka kelas kan lu?, ahahaha"]] },
         ],
       },
       {
@@ -74,9 +74,9 @@ const games = {
         introSpeaker: "Poniman", intro: "Bel istirahat berbunyi. Di kantin, Leha bertemu Nurul, Pista, dan Anita. Gerakkan Leha mendekati mereka untuk menyapa.",
         outroSpeaker: "Poniman", outro: "Hari sekolah berlanjut dengan obrolan sederhana bersama teman-teman. Dari sini, kisah Leha dan Hikam akan bergerak ke bab berikutnya.", objects: [],
         friends: [
-          { id: "nurul", name: "Nurul", left: 38, dialogue: [["Nurul", "Leha, biasanya kamu jajan apa kalau istirahat?"], ["Leha", "Tergantung suasana. Hari ini kayaknya cari yang segar."], ["Nurul", "Kalau begitu, kita lihat menu minumannya, yuk."]] },
-          { id: "pista", name: "Pista", left: 59, dialogue: [["Pista", "Kantin ramai juga hari ini."], ["Leha", "Iya, untung kita masih dapat tempat."], ["Pista", "Sambil makan, cerita-cerita, yuk."]] },
-          { id: "anita", name: "Anita", left: 80, dialogue: [["Anita", "Akhirnya ketemu lagi di kantin, Leha."], ["Leha", "Iya! Tadi aku janji mau ke sini."], ["Anita", "Janji ditepati. Nah, sekarang pilih jajanan!"]] },
+          { id: "nurul", name: "Nurul", left: 38, dialogue: [["Nurul", "Leh, gorengannya baru diangkat nih, masih panas!"], ["Leha", "Wah, pas banget. gua ambil dua deh.."], ["Nurul", "iya sekalian aja ama gue yak."]] },
+          { id: "pista", name: "Pista", left: 59, dialogue: [["Pista", "Kantin rame banget dahhh."], ["Leha", "Iya, untung kita masih dapat tempat."], ["Pista", "bilang apa sama gue yang jagain tempat!."]] },
+          { id: "anita", name: "Anita", left: 80, dialogue: [["Anita", "Pulang sekolah nanti ada yang mau belajar bareng ga?"], ["Leha", "ikuttt! tapi gua bareng yak."], ["Anita", "Okeiii!"]] },
         ],
       },
     ],
@@ -87,17 +87,17 @@ Object.assign(games, {
   "bab-2": {
     title: "Modus yang Tidak Terlalu Halus",
     stages: [
-      { id: "after-school-offer", eyebrow: "BAB 2 · PULANG SEKOLAH", location: "GERBANG SMAN 94", mode: "school-gate", playMode: "social", introSpeaker: "Poniman", intro: "Bel pulang berbunyi. Hikam menawarkan tumpangan kepada Leha dengan alasan menghemat ongkos.", outroSpeaker: "Poniman", outro: "Leha menerima ajakan Hikam. Sekarang mereka memulai perjalanan pulang dengan motor.", objects: [], friends: [{ id: "hikam", name: "Hikam", left: 66, dialogue: [["Hikam", "Udah pulang? Gue anterin, ya. Daripada keluar ongkos Gojek."], ["Leha", "Modus lo, Kam."], ["Hikam", "Ini namanya solusi hemat. Naik?"], ["Leha", "Ya udah, ayo."]] }] },
+      { id: "after-school-offer", eyebrow: "BAB 2 · PULANG SEKOLAH", location: "GERBANG SMAN 94", mode: "school-gate", playMode: "social", introSpeaker: "Poniman", intro: "Bel pulang berbunyi. Hikam menawarkan tumpangan kepada Leha dengan alasan menghemat ongkos.", outroSpeaker: "Poniman", outro: "Leha menerima ajakan Hikam. Sekarang mereka memulai perjalanan pulang dengan motor.", objects: [], friends: [{ id: "hikam", name: "Hikam", left: 66, dialogue: [["Hikam", "Udah pulang? Gue anterin, ya. Daripada keluar ongkos Gojek."], ["Leha", "Modus lo, Kam."], ["Hikam", "yeh biar hemat kocak. udah burur naek?"], ["Leha", "Ya udah, ayo."]] }] },
       { id: "ride-home", eyebrow: "BAB 2 · PERJALANAN PULANG", location: "JALAN PULANG", mode: "motor", playMode: "ride", introSpeaker: "Poniman", intro: "Leha dan Hikam mulai berkendara pulang. Nikmati perjalanan singkat mereka di jalan sore.", outroSpeaker: "Poniman", outro: "Perjalanan pulang Leha dan Hikam selesai. Ajakan sederhana itu menjadi salah satu kenangan masa sekolah mereka.", objects: [], activity: { duration: 8500 } },
-      { id: "ride-reflection", eyebrow: "BAB 2 · MODUS TERBONGKAR", location: "PERJALANAN PULANG", mode: "motor", playMode: "story", introSpeaker: "Poniman", intro: "Alasan menghemat ongkos bukan satu-satunya hal yang dipikirkan Hikam.", outroSpeaker: "Poniman", outro: "Perjalanan sederhana itu membuka ruang bagi kenangan-kenangan berikutnya.", objects: [], script: [["Hikam", "Jujur, waktu itu gue pengen bisa pulang bareng lo."], ["Hikam", "Gue emang pengen bisa pergi bareng lo."], ["Leha", "Masih aja cari alasan, Kam."]] },
+      { id: "ride-reflection", eyebrow: "BAB 2 · MODUS TERBONGKAR", location: "PERJALANAN PULANG", mode: "motor", playMode: "story", introSpeaker: "Poniman", intro: "Hikam masih coba cara lain buat banyak waktu samma Leha.", outroSpeaker: "Poniman", outro: "Perjalanan sederhana itu membuka ruang bagi kenangan-kenangan berikutnya.", objects: [], script: [["Hikam", "leh, biar lebih hemat paginya gua jemput juga aja ya."], ["Hikam", "jadi sehari bisa lebih hemat 15 rib, keren kann."], ["Leha", "Masih aja cari alasan, Kam."]] },
     ],
   },
   "bab-3": {
-    title: "Taruhan Es Krim",
+    title: "Taruhan Happy Days",
     stages: [
       { id: "maulid-bet", eyebrow: "BAB 3 · TARUHAN", location: "LINGKUNGAN SEKOLAH", mode: "school-class", playMode: "story", introSpeaker: "Poniman", intro: "Satu pertanyaan Leha tentang Maulid berubah menjadi taruhan kecil yang menguntungkan Hikam.", outroSpeaker: "Poniman", outro: "Leha menerima taruhan itu. Bantu Leha membuka kalender untuk mengetahui hari Maulid.", objects: [], script: [["Leha", "Emang Maulid hari Jumat apa Kamis?"], ["Hikam", "Kamis."], ["Leha", "Boong lu yak?"], ["Hikam", "Kalo bener beliin gua batagor lu yak."], ["Leha", "Yeeeh masa gitu."], ["Hikam", "Kalo gua salah gua traktir es krim."], ["Leha", "Okeee."]] },
       { id: "calendar-reveal", eyebrow: "BAB 3 · JAWABAN", location: "KALENDER SEKOLAH", mode: "calendar", playMode: "reveal", introSpeaker: "Poniman", intro: "Periksa tanggal Maulid untuk membuka hasil taruhannya.", outroSpeaker: "Poniman", outro: "Hikam menjawab salah dengan sengaja. Ia ingin memiliki alasan untuk mengajak Leha ke Happy Days dan mentraktirnya es krim.", objects: [], activity: { label: "Buka kalender", prompt: "Hari yang benar ternyata Jumat. Hikam menjawab Kamis dengan sengaja.", doneText: "Jawaban terbuka: Hikam memang sengaja salah." } },
-      { id: "happy-days", eyebrow: "BAB 3 · HAPPY DAYS", location: "HAPPY DAYS", mode: "happy-days", playMode: "story", introSpeaker: "Poniman", intro: "Leha dan Hikam pergi ke Happy Days. Mereka menghabiskan waktu dengan mengobrol dan tertawa bersama.", outroSpeaker: "Poniman", outro: "Berikutnya, Leha datang untuk mendukung band Hikam.", objects: [], script: [["Hikam", "Sebenernya waktu itu aku sengaja kalah supaya bisa jalan sama kamu."], ["Leha", "Jadi dari awal memang udah direncanakan?"], ["Hikam", "Kurang lebih. Tapi es krimnya beneran gue traktir."]] },
+      { id: "happy-days", eyebrow: "BAB 3 · HAPPY DAYS", location: "HAPPY DAYS", mode: "happy-days", playMode: "story", introSpeaker: "Poniman", intro: "Leha dan Hikam pergi ke Happy Days. Mereka menghabiskan waktu dengan mengobrol dan tertawa bersama.", outroSpeaker: "Poniman", outro: "Berikutnya, Leha datang untuk mendukung band Hikam.", objects: [], script: [["Hikam", "Sebenernya kemaren itu gue sengaja kalah supaya bisa jalan sama lo."], ["Leha", "Jadi dari awal memang udah rencanain?"], ["Hikam", "wkwkw emang ngapa sii. yg penting es krimnya beneran gue traktir."]] },
     ],
   },
   "bab-4": {
@@ -105,22 +105,22 @@ Object.assign(games, {
     stages: [
       { id: "before-show", eyebrow: "BAB 4 · SEBELUM TAMPIL", location: "AREA KOMPETISI BAND", mode: "concert", playMode: "story", introSpeaker: "Poniman", intro: "Pada hari kompetisi band di SMAN 2 Tangerang, Leha datang untuk menonton penampilan Hikam.", outroSpeaker: "Poniman", outro: "Sekarang waktunya tampil. Poniman memandu: tekan kiri dan kanan mengikuti pola drum.", objects: [], script: [["Leha", "Keren keren akhirnya gua bisa nonton lu."], ["Hikam", "Jelas dong, siapa dulu hahaha."], ["Hikam", "Makasih ya udah mau nonton gua."], ["Leha", "Okaai semoga sukses."]] },
       { id: "drum-rhythm", eyebrow: "BAB 4 · PENAMPILAN", location: "PANGGUNG KOMPETISI", mode: "concert", playMode: "rhythm", introSpeaker: "Poniman", intro: "Hikam bersiap memainkan drum di panggung. Poniman memandu: tekan tombol kiri dan kanan mengikuti pola yang tampil.", outroSpeaker: "Poniman", outro: "Penampilan selesai. Saatnya menunggu pengumuman.", objects: [], activity: { sequence: ["left", "right", "left", "left", "right", "left"] } },
-      { id: "first-place", eyebrow: "BAB 4 · JUARA PERTAMA", location: "PANGGUNG KOMPETISI", mode: "concert", playMode: "story", introSpeaker: "Poniman", intro: "Band Hikam meraih juara pertama. Leha menghampirinya setelah pengumuman.", outroSpeaker: "Poniman", outro: "Setelah suasana panggung yang ramai, kenangan berlanjut ke momen sederhana di Alas Tua.", objects: [], script: [["Leha", "Cieee juara 1."], ["Hikam", "Aaa seneng banget guaa."], ["Hikam", "Sini tos—"], ["Poniman", "Hikam dan Leha mulai bergerak seolah akan berpelukan..."], ["Poniman", "Plot twist: boong! Mereka tertawa dan kembali berdiri berdampingan."]] },
-      { id: "alas-tua", eyebrow: "BAB 4 · SETELAH KOMPETISI", location: "ALAS TUA", mode: "alas-tua", playMode: "story", introSpeaker: "Poniman", intro: "Setelah kompetisi, Leha dan Hikam mampir ke Alas Tua. Momen sederhana itu menjadi bagian dari kenangan mereka.", outroSpeaker: "Poniman", outro: "Dari momen kecil itu, perjalanan beralih ke mimpi-mimpi yang pernah Leha dan Hikam bagi.", objects: [], script: [["Hikam", "Kadang yang gue ingat bukan cuma acara besarnya."], ["Hikam", "Hal sederhana setelahnya juga ikut nempel di kepala."]] },
+      { id: "first-place", eyebrow: "BAB 4 · JUARA PERTAMA", location: "PANGGUNG KOMPETISI", mode: "concert", playMode: "story", introSpeaker: "Poniman", intro: "Band Hikam meraih juara pertama. Leha menghampirinya setelah pengumuman.", outroSpeaker: "Poniman", outro: "Setelah suasana panggung yang ramai, kenangan berlanjut ke momen sederhana di Alas Tua.", objects: [], script: [["Leha", "Cieee juara 1."], ["Hikam", "Aaa seneng banget guaa."], ["Hikam", "Sini tos—"], ["Poniman", "Mereka saling menatap. Dunia seolah hening. Sepertinya… mereka akan berpelukan…"], ["Poniman", "boong! Mereka tertawa dan kembali berdiri berdampingan."]] },
+      { id: "alas-tua", eyebrow: "BAB 4 · SETELAH KOMPETISI", location: "ALAS TUA", mode: "alas-tua", playMode: "story", introSpeaker: "Poniman", intro: "Setelah kompetisi, Leha dan Hikam mampir ke Alas Tua. Momen sederhana itu menjadi bagian dari kenangan mereka.", outroSpeaker: "Poniman", outro: "Dari momen kecil itu, perjalanan beralih ke mimpi-mimpi yang pernah Leha dan Hikam bagi.", objects: [], script: [["Hikam", "makasih ya lehhh."], ["Hikam", "seneng banget gua hari ini."]] },
     ],
   },
   "bab-5": {
-    title: "Dua Mimpi, Dua Arah",
+    title: "Ambisi Leha",
     stages: [
-      { id: "two-dreams", eyebrow: "BAB 5 · AKHIR MASA SMA", location: "RUANG KELAS · MENJELANG KELULUSAN", mode: "dreams", playMode: "story", introSpeaker: "Poniman", intro: "Menjelang akhir masa SMA, Leha dan Hikam berbagi cerita tentang masa depan.", outroSpeaker: "Poniman", outro: "Saat itu, Leha dan Hikam belum tahu ke mana jalan masing-masing akan membawa mereka.", objects: [], script: [["Leha", "Aku pengen jadi Menteri Pemberdayaan Perempuan."], ["Hikam", "Waktu lo bilang itu, gue mikir: keren banget."], ["Hikam", "Gue sendiri pengen masuk STIS."], ["Leha", "Semoga berhasil ya, Kam. Aku dukung."], ["Hikam", "Makasih. Walaupun akhirnya gue nggak berhasil masuk, dukungan lo tetap gue inget."]] },
+      { id: "two-dreams", eyebrow: "BAB 5 · AKHIR MASA SMA", location: "RUANG KELAS · MENJELANG KELULUSAN", mode: "dreams", playMode: "story", introSpeaker: "Poniman", intro: "Menjelang akhir masa SMA, Leha dan Hikam berbagi cerita tentang masa depan.", outroSpeaker: "Poniman", outro: "Saat itu, Leha dan Hikam belum tahu ke mana jalan masing-masing akan membawa mereka.", objects: [], script: [["Leha", "gua pengen banget suatu saat nanti jadi Menteri Pemberdayaan Perempuan."], ["Hikam", "Waktu lo bilang itu, gua mikir: keren banget."], ["Hikam", "keren bangetttt. kalo Gua sendiri pengen masuk STIS."], ["Leha", "Semoga berhasil ya, Kam. gue dukung."], ["Hikam", "Emang gua Capress lu dukung dukung."]] },
     ],
   },
   "bab-6": {
-    title: "Jalan yang Mulai Berbeda",
+    title: "Bubaran, sedih banget ckck",
     stages: [
-      { id: "graduation", eyebrow: "BAB 6 · SETELAH SMA", location: "KENANGAN KELULUSAN", mode: "graduation", playMode: "story", introSpeaker: "Poniman", intro: "Setelah lulus SMA, rutinitas Leha dan Hikam mulai berubah.", outroSpeaker: "Poniman", outro: "Leha dan Hikam tetap saling tahu kabar, meski tak sesering dulu.", objects: [], script: [["Hikam", "Lulus sekolah bikin hari-hari kami mulai punya arah sendiri."], ["Hikam", "Gue kuliah di UIN. Leha fokus mengejar UI."], ["Hikam", "Nggak ada pertengkaran besar. Hidup saja yang mulai sibuk."]] },
+      { id: "graduation", eyebrow: "BAB 6 · SETELAH SMA", location: "KENANGAN KELULUSAN", mode: "graduation", playMode: "story", introSpeaker: "Poniman", intro: "Setelah lulus SMA, rutinitas Leha dan Hikam mulai berubah.", outroSpeaker: "Poniman", outro: "Leha dan Hikam tetap saling tahu kabar, meski tak sesering dulu.", objects: [], script: [["Hikam", "Lulus sekolah bikin hari-hari kami mulai punya arah sendiri."], ["Hikam", "Gue kuliah di UIN. Leha fokus mengejar UI."], ["Hikam", "Nggak ada pertengkaran besar. Hidup aja yang udah mulai sibuk."]] },
       { id: "different-routines", eyebrow: "BAB 6 · RUTINITAS BARU", location: "POTONGAN WAKTU", mode: "daily-life", playMode: "story", introSpeaker: "Poniman", intro: "Hari-hari Leha dan Hikam dipenuhi jadwal kuliah dan kegiatan baru. Mereka sesekali bertukar kabar.", outroSpeaker: "Poniman", outro: "Lalu Hikam mendengar kabar baik tentang Leha.", objects: [], script: [["Hikam", "Kadang kami masih sempat ketemu."], ["Hikam", "Tapi nggak sesering dulu. Kami sama-sama punya hal yang sedang dikejar."]] },
-      { id: "accepted-ui", eyebrow: "BAB 6 · KABAR BAIK", location: "KABAR TENTANG UI", mode: "phone", playMode: "story", introSpeaker: "Poniman", intro: "Hikam menerima kabar bahwa Leha berhasil masuk UI.", outroSpeaker: "Poniman", outro: "Leha berhasil masuk UI. Perjalanan kampusnya segera dimulai.", objects: [], script: [["Hikam", "Terus gue dengar kabar Leha berhasil masuk UI."], ["Hikam", "Gue ikut senang. Mimpinya terus jalan."]] },
+      { id: "accepted-ui", eyebrow: "BAB 6 · KABAR BAIK", location: "KABAR TENTANG UI", mode: "phone", playMode: "story", introSpeaker: "Poniman", intro: "Hikam menerima kabar bahwa Leha berhasil masuk UI.", outroSpeaker: "Poniman", outro: "Leha berhasil masuk UI. Perjalanan kampusnya segera dimulai.", objects: [], script: [["Hikam", "Terus gue dengar kabar Leha berhasil masuk UI."], ["Hikam", "Gue ikut senang. Mimpinya terus jalan, makin keliatan gituu. keren kerennn."]] },
     ],
   },
   "bab-7": {
@@ -128,35 +128,35 @@ Object.assign(games, {
     stages: [
       { id: "phone-post", eyebrow: "BAB 7 · KABAR DARI UI", location: "UNGGAHAN DI PONSEL", mode: "phone", playMode: "story", introSpeaker: "Poniman", intro: "Suatu hari, Hikam melihat unggahan Leha yang mulai menjalani kehidupan kampus.", outroSpeaker: "Poniman", outro: "Dari layar ponsel, cerita beralih ke hari-hari Leha di UI.", objects: [], script: [["Hikam", "Mantan gue nihhh."], ["Hikam", "Bangga banget gue lihat lo sampai di sini, Leha."]] },
       { id: "ui-campus", eyebrow: "BAB 7 · KEHIDUPAN KAMPUS", location: "KAMPUS UI", mode: "campus", playMode: "social", introSpeaker: "Poniman", intro: "Di UI, Leha menjalani kegiatan kampus dan menghabiskan waktu bersama Mentari dan Nadia. Gerakkan Leha untuk menyapa mereka.", outroSpeaker: "Poniman", outro: "Hikam turut senang melihat Leha membangun dunianya sendiri.", objects: [], friends: [
-        { id: "mentari", name: "Mentari", left: 59, dialogue: [["Mentari", "Leha, habis ini mau belajar di perpus atau ikut kegiatan organisasi?"], ["Leha", "Kita belajar dulu sebentar, habis itu lihat kegiatan organisasi, yuk."], ["Mentari", "Oke, jalan bareng!"]] },
-        { id: "nadia", name: "Nadia", left: 80, dialogue: [["Nadia", "Mbak Leha, nanti duduk bareng kami di perpustakaan, ya."], ["Leha", "Boleh, aku ikut."], ["Nadia", "Siap. Nanti kita lanjut cerita di sana."]] },
+        { id: "mentari", name: "Mentari", left: 59, dialogue: [["Mentari", "Leh, habis ini mau belajar di perpus atau ikut kegiatan organisasi?"], ["Leha", "belajar dulu sebentar, habis itu lihat kegiatan organisasi, yuk."], ["Mentari", "Oke, bareng yakkk!"]] },
+        { id: "nadia", name: "Nadia", left: 80, dialogue: [["Nadia", "Leh, besok gue ma ke perpus sama mentari, ikut ya."], ["Leha", "Boleh, guee ikut."], ["Nadia", "Siap. besok gua kabarin lagi yaaa."]] },
       ] },
     ],
   },
   "bab-8": {
     title: "Perempuan dengan Mimpi Besar",
     stages: [
-      { id: "professional-life", eyebrow: "BAB 8 · PERJALANAN PROFESIONAL", location: "LINGKUNGAN KERJA", mode: "office", playMode: "story", introSpeaker: "Poniman", intro: "Cita-cita yang pernah diceritakan Leha terus membawanya ke pengalaman baru.", outroSpeaker: "Poniman", outro: "Poniman melihat Hikam bangga saat Leha terus berkembang dan menjalani jalannya sendiri.", objects: [], script: [["Hikam", "Gue lihat kabar Leha magang di DPR. Keren banget."], ["Hikam", "Mimpi yang dulu ia ceritakan terus ia perjuangkan."]] },
+      { id: "professional-life", eyebrow: "BAB 8 · PERJALANAN PROFESIONAL", location: "LINGKUNGAN KERJA", mode: "office", playMode: "story", introSpeaker: "Poniman", intro: "Cita-cita yang pernah diceritakan Leha terus membawanya ke pengalaman baru.", outroSpeaker: "Poniman", outro: "Poniman tahu Hikam sangat bangga saat Leha terus berkembang dan menjalani jalannya sendiri.", objects: [], script: [["Hikam", "Gue lihat story Leha magang di DPR. Keren banget."], ["Hikam", "kaya semua yang dia ceritain masih terus di perjuangin."]] },
       { id: "ibu-menteri", eyebrow: "BAB 8 · SEBUAH PERTEMUAN", location: "RUANG KERJA", mode: "office", playMode: "social", introSpeaker: "Poniman", intro: "Di ruang kerja, Leha menunggu kedatangan Ibu Menteri Kependudukan dan Pembangunan Keluarga. Sapa Mbak Jupe dulu, lalu temui Ibu Menteri.", outroSpeaker: "Poniman", outro: "Berikutnya, perjalanan membawa Leha, Hikam, dan Wawaw bertemu kembali di Noto Coffee.", objects: [], friends: [
-        { id: "jupe", name: "Mbak Jupe", left: 30, dialogue: [["Mbak Jupe", "Leh, udah ketemu Ibu buat minta tanda tangan?"], ["Leha", "Iya nanti kalo Ibu udah sampe, gue mau langsung temuin dia."], ["Leha", "Eh mesen Gacoan yuk, lagi pengen udang keju gue."], ["Mbak Jupe", "Gass, yaudah pake Shopee lu yak!"]] },
+        { id: "jupe", name: "Mbak Jupe", left: 30, dialogue: [["Mbak Jupe", "Leh, udah ketemu Ibu buat minta tanda tangan?"], ["Leha", "Iya nanti kalo Ibu udah sampe, gue mau langsung temuin dia."], ["Leha", "Eh, Gacoan yuk mbak, lagi pengen udang keju gue."], ["Mbak Jupe", "Gass, yaudah pake Shopee lu yak!"]] },
         { id: "ibu-menteri", name: "Ibu Menteri", left: 72, requires: "jupe", requiresHint: "Ngobrol dulu sama Mbak Jupe sebelum menemui Ibu Menteri.", dialogue: [["Leha", "Ibu ini ada beberapa surat yang perlu ditanda tangani."], ["Ibu Menteri", "Oh oke."], ["Leha", "Oiya bu nanti sore kita ada meeting di Gedung Kopti, keperluan ibu udah saya siapkan."], ["Ibu Menteri", "Oke makasih, bilang ke driver ya."], ["Leha", "Baik, Bu."]] },
       ] },
     ],
   },
   "bab-9": {
-    title: "3 Oktober",
+    title: "Kam, Ngopi Yuk",
     stages: [
       { id: "fisip-reunion", eyebrow: "BAB 9 · 3 OKTOBER", location: "NOTO COFFEE", mode: "noto", playMode: "social", introSpeaker: "Poniman", intro: "Pada 3 Oktober, Leha, Hikam, dan Wawaw bertemu kembali di Noto Coffee.", outroSpeaker: "Poniman", outro: "Setelah berbincang bertiga, Leha dan Hikam melanjutkan obrolan berdua.", objects: [], friends: [
         { id: "wawaw", name: "Wawaw", left: 36, dialogue: [["Wawaw", "Akhirnya bisa kumpul bertiga lagi."], ["Leha", "Iya, senang akhirnya kita bisa ketemu lagi."], ["Wawaw", "Kalian ngobrol santai aja. Senang bisa lihat kalian dekat lagi."]] },
-        { id: "hikam", name: "Hikam", left: 68, dialogue: [["Hikam", "Rasanya sudah lama kita nggak duduk bareng begini."], ["Leha", "Iya. Banyak cerita yang kelewat."], ["Hikam", "Nanti kita cerita satu-satu, ya."]] }
+        { id: "hikam", name: "Hikam", left: 68, dialogue: [["Hikam", "Rasanya udah lama kita nggak duduk bareng begini."], ["Leha", "Iya. Banyak bgt cerita yang kelewat. mantan lu aja 6 jir."], ["Hikam", "apaan si kaga 6 ya. gila luuu."]] }
       ] },
-      { id: "closeness-again", eyebrow: "BAB 9 · SETELAH BERTEMU", location: "NOTO COFFEE", mode: "noto", playMode: "story", introSpeaker: "Poniman", intro: "Pertemuan itu membuat sesuatu terasa dekat lagi.", outroSpeaker: "Poniman", outro: "Perjalanan panjang mengantar Leha dan Hikam kembali pada momen yang berarti.", objects: [], script: [["Hikam", "Setelah hari itu, gue merasa kita dekat lagi."], ["Leha", "Aku juga ngerasain hal yang sama."], ["Hikam", "Gue bersyukur bisa ketemu lo lagi, Leha."]] },
+      { id: "closeness-again", eyebrow: "BAB 9 · SETELAH BERTEMU", location: "NOTO COFFEE", mode: "noto", playMode: "story", introSpeaker: "Poniman", intro: "Pertemuan itu membuat sesuatu terasa dekat lagi.", outroSpeaker: "Poniman", outro: "Perjalanan panjang mengantar Leha dan Hikam kembali pada momen yang berarti.", objects: [], script: [["Hikam", "Setelah hari itu, gue merasa kita dekat lagi."], ["Leha", "gua juga ngerasain hal yang sama kam."], ["Hikam", "Gue bersyukur bisa ketemu lo lagi, Leh."]] },
     ],
   },
   finale: {
-    title: "Untuk Leha, Hari Ini",
+    title: "Untuk Sayangkuu, Hari Ini",
     stages: [
-      { id: "final-letter-delivery", eyebrow: "FINALE · SURAT UNTUK LEHA", location: "HARI ULANG TAHUN LEHA", mode: "birthday", playMode: "story", introSpeaker: "Poniman", intro: "Di hari ulang tahun Leha, Hikam membawa sebuah surat. Dekati Hikam untuk menerimanya.", outroSpeaker: "Poniman", outro: "", objects: [], script: [["Hikam", "Leha, sebelum semuanya selesai, gue mau kasih sesuatu."], ["Leha", "Surat? Buat gue?"], ["Hikam", "Iya. Baca sampai selesai, ya."], ["Leha", "Oke, Kam. Makasih."]] },
+      { id: "final-letter-delivery", eyebrow: "FINALE · SURAT UNTUK LEHA", location: "HARI ULANG TAHUN LEHA", mode: "birthday", playMode: "story", introSpeaker: "Poniman", intro: "Di hari ulang tahun Leha, Hikam membawa sebuah surat. Dekati Hikam untuk menerimanya.", outroSpeaker: "Poniman", outro: "", objects: [], script: [["Hikam", "Leha, sebelum semuanya selesai, gue mau kasih sesuatu."], ["Leha", "Surat? Buat gue?"], ["Hikam", "Iya. Baca ampe selesai, ya."], ["Leha", "Oke, Kam. Makasih."]] },
       { id: "final-letter-reading", eyebrow: "FINALE · ISI SURAT", location: "SURAT DARI HIKAM", mode: "birthday", playMode: "letter", introSpeaker: "Poniman", intro: "Leha membuka surat dari Hikam. Inilah pesan terakhir sebelum credit penutup.", outroSpeaker: "Poniman", outro: "", objects: [], activity: { letter: "Leha,\n\nGue bikin game ini bukan karena masa lalu harus diulang, tapi karena ada banyak hal kecil yang sampai sekarang masih gue simpan. Dari pulang sekolah, taruhan es krim, sampai hari-hari waktu lo cerita tentang mimpi lo.\n\nGue bangga melihat cara lo terus melangkah. Semoga suatu hari nanti, lo sampai di tempat yang dulu lo bayangkan. Apa pun jalannya, jangan pernah meremehkan sejauh apa lo sudah berjalan.\n\nSelamat ulang tahun. Terima kasih sudah jadi bagian dari cerita ini.\n\n- Hikam" } },
       { id: "final-credits", eyebrow: "ENDING CREDITS", location: "SEBUAH HADIAH UNTUK LEHA", mode: "birthday", playMode: "credits", introSpeaker: "Poniman", intro: "", outroSpeaker: "Poniman", outro: "", objects: [], activity: { credits: [{ role: "DEVELOPER", name: "Hikam" }, { role: "SCRIPT", name: "Hikam" }, { role: "SOUND DESIGN", name: "Hikam" }, { role: "VISUAL DESIGN", name: "Hikam" }, { role: "GAME DESIGN", name: "Hikam" }, { role: "PRODUCER", name: "Hikam" }, { role: "THE MAN WHO LUCKY HAVE LEHA:", name: "Hikam", final: true }] } }
     ],
