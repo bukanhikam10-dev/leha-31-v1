@@ -517,7 +517,7 @@ function renderActivity(stage) {
         activity.done = true; saveState();
         $("#stage-next").hidden = true;
         $("#scene-message").textContent = "Surat selesai dibaca. Credit penutup dimulai...";
-        clearTimeout(sceneTimer); sceneTimer = window.setTimeout(advanceStage, 700);
+        clearTimeout(sceneTimer); sceneTimer = window.setTimeout(advanceStage, 6000);
       }, 18);
     });
     else if (activity.opened && !activity.done && !typingTimer) {
@@ -525,7 +525,7 @@ function renderActivity(stage) {
         activity.done = true; saveState();
         $("#stage-next").hidden = true;
         $("#scene-message").textContent = "Surat selesai dibaca. Credit penutup dimulai...";
-        clearTimeout(sceneTimer); sceneTimer = window.setTimeout(advanceStage, 700);
+        clearTimeout(sceneTimer); sceneTimer = window.setTimeout(advanceStage, 6000);
       }, 18);
     }
   } else if (stage.playMode === "credits") {
