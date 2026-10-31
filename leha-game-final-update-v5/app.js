@@ -4,10 +4,10 @@ const chapters = [
   { id: "bab-2", number: "02", title: "Pertemuan dengan Hikam", label: "BAB 2", summary: "modus nebengin pulang sekolah pake scoopy merah tercinta." , playable: true },
   { id: "bab-3", number: "03", title: "Taruhan Happy Days", label: "BAB 3", summary: "pura pura taruhan biar bisa nge date di Happy Days. ckckck", playable: true },
   { id: "bab-4", number: "04", title: "Di Barisan Penonton", label: "BAB 4", summary: "kamu nontonin Hikam nge band di SMAN 2 Tangerang, disini ada kejadian kalo kam inget wkwkkw", playable: true },
-  { id: "bab-5", number: "05", title: "Dua Mimpi, Dua Arah", label: "BAB 5", summary: "Cita cita kamu yang keren banget itu, masi kerekam ama Hikam sekarang.", playable: true },
-  { id: "bab-6", number: "06", title: "Jalan yang Mulai Berbeda", label: "BAB 6", summary: "Setelah SMA, rutinitas berubah saat Kamu mengejar UI dan Hikam kuliah di UIN.", playable: true },
+  { id: "bab-5", number: "05", title: "Ambisi Leha", label: "BAB 5", summary: "Cita cita kamu yang keren banget itu, masi kerekam ama Hikam sekarang.", playable: true },
+  { id: "bab-6", number: "06", title: "Bubaran, sedih banget ckck", label: "BAB 6", summary: "Setelah SMA, rutinitas berubah saat Kamu mengejar UI dan Hikam kuliah di UIN.", playable: true },
   { id: "bab-7", number: "07", title: "Mbak Leha dari UI", label: "BAB 7", summary: "Kehidupan kampus Kamu bersama Mentari dan Nadia.", playable: true },
-  { id: "bab-8", number: "08", title: "Perempuan dengan Mimpi Besar", label: "BAB 8", summary: "Pengalaman profesional kamu dan Hikam bangga dari kejauhan asikk.", playable: true },
+  { id: "bab-8", number: "08", title: "Perempuan dengan Mimpi Besar", label: "BAB 8", summary: "Pengalaman profesional kamu dan Hikam bangga dari kejauhan asiikk.", playable: true },
   { id: "bab-9", number: "09", title: "3 Oktober", label: "BAB 9", summary: "Pertemuan kembali di cafe noto.", playable: true },
   { id: "finale", number: "✦", title: "Untuk Leha, Hari Ini", label: "FINALE", summary: "Surat terakhir dari Hikam dan ending credit komedi.", playable: true },
 ];
@@ -31,10 +31,10 @@ const characters = [
 
 const games = {
   prologue: {
-    title: "Sebuah hadiah untuk Leha",
+    title: "Tutorial dulu Yuk",
     stages: [{
       id: "ruang-hadiah", eyebrow: "PROLOG · DRAFT ADEGAN", location: "RUANG HADIAH", mode: "prologue",
-      intro: "Leha menerima sebuah game yang dibuat khusus untuknya. Bantu Leha melihat benda-benda yang tersembunyi di ruangan ini.",
+      intro: "Halo, Leha! Aku Poniman, bintang kecil yang akan menemanimu. Game ini hadiah ulang tahun untukmu, dibuat Hikam.",
       outro: "Semua benda di ruang hadiah sudah ditemukan. Perjalanan Leha akan dimulai dari masa sekolahnya.",
       objects: [
         { id: "hadiah", name: "Kotak hadiah", icon: "▣", clue: "Ada pita merah di dekat tepi meja." },
