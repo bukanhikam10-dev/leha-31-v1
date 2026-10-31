@@ -352,7 +352,7 @@ function renderChapterDetail() {
   else if (!unlocked) action = `<button class="detail-action" id="chapter-action" type="button" disabled>Selesaikan bab sebelumnya dulu</button>`;
   else action = `<button class="detail-action" id="chapter-action" type="button">${done ? "Mainkan lagi" : "Masuk ke bab"} →</button>`;
   const tag = !unlocked ? "TERKUNCI · IKUTI URUTAN CERITA" : chapter.playable ? "ADEGAN INTERAKTIF" : "RANCANGAN CERITA";
-  $("#chapter-detail").innerHTML = `<div class="detail-top"><span class="detail-kicker">${chapter.label} · ${tag}</span><h2>${chapter.title}</h2><p>${chapter.summary}</p></div><div class="detail-bottom"><span>${chapter.playable ? done ? "PROGRES TERSIMPAN" : "DRAFT PROTOTIPE" : "PRATINJAU · BELUM DIBANGUN"}</span>${action}</div>`;
+  $("#chapter-detail").innerHTML = `<div class="detail-top"><span class="detail-kicker">${chapter.label} · ${tag}</span><h2>${chapter.title}</h2><p>${chapter.summary}</p></div><div class="detail-bottom"><span>${chapter.playable ? done ? "PROGRES TERSIMPAN" : "BELUM ADA PROGRES" : "BELUM ADA PROGRES JUGA"}</span>${action}</div>`;
   $("#chapter-action")?.addEventListener("click", () => openGame(chapter));
 }
 
